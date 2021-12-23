@@ -56,13 +56,14 @@ img{
     height: 200px;
     width: 200px;
     margin-bottom: 5px;
+    border-radius: 100px;
 }
 
 .contact-info{
     position: relative;
     display: flex;
     flex-direction: column;
-    padding: 30px 0 20px  0;
+    padding: 20px 0 10px  0;
     border-bottom: 1px solid rgb(229, 226, 226,0.4);
 }
 
@@ -79,31 +80,158 @@ img{
     cursor: pointer;
 }
 
-.language-info{
+.education-info{
     position: relative;
     display: flex;
     flex-direction: column;
-    padding: 30px 0 20px  0;
+    padding: 20px 0 10px  0;
 }
 
-.language-info h3{
-    padding: 10px 0;
+.education-info h3{
+    padding: 20px 0;
     font-size: 22px;
 }
 
-.progress{
-    width: 100%;
-    height: 15px;
-    background-color: rgb(32, 30, 30);
-    border-radius: 8px;
-    margin: 8px 0;
+.education-item{
+    margin: 10px 0;
+    font-weight: bold;
+
 }
 
-.progress .prog-eng{
+.course{
+    margin: 10px 0;
+}
+
+
+.right-side{
+    color: rgb(65, 41, 41);
+}
+
+.profile h3{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.profile-content{
+    margin: 10px 0;
+}
+
+.profile{
+    border-bottom: 1px solid rgb(62 60 60 / 40%);
+    padding-bottom: 20px;
+}
+
+.experience{
+    border-bottom: 1px solid rgb(62 60 60 / 40%);
+    padding-bottom: 15px;
+}
+
+.experience h3{
+    padding: 20px 0;
+    font-size: 22px;
+}
+
+.exp-item{
+    position: relative;
+    display: flex;
+}
+
+.e2{
+    margin-top: 10px;
+}
+
+.exp-year{
+    width: 30%;
+}
+
+.exp-content{
     width: 70%;
-    height: 15px;
+}
+
+.exp-content span{
+    display: block;
+}
+
+.company-name{
+    font-weight: bold;
+}
+
+.company-detail{
+    font-weight: lighter;
+    padding-top: 5px;
+}
+
+.prof-skill{
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgb(62 60 60 / 40%);
+
+}
+
+.prof-skill h3{
+    padding: 20px 0;
+    font-size: 22px;
+}
+
+.skill-title{
+    font-size: 18px;
+    margin: 12px 0 8px 5px;}
+
+.skill-item{
+    height: 60px;
+}
+
+.skill-bar{
+    height: 24px;
+    margin: 0 20px 0 0;
+    border-radius: 50px;
+    background-color: rgb(177, 74, 33);
+    text-align: center;
+    color: aliceblue;
+}
+
+.icon{
+    font-size: 22px;
     color: black;
-    padding-left:5px;
-    padding-bottom: 2px;
-    background-color: yellow;
+}
+
+.html{
+    width: 90%;
+}
+
+.js{
+    width: 70%;
+}
+
+.react{
+    width: 55%;
+}
+
+.java{
+    width: 65%;
+}
+
+.interest h3{
+    padding: 20px 0;
+    font-size: 22px;
+}
+
+.interest-main{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.interest-item{
+    width: 150px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.interest-name{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.inticon{
+    font-size: 30px;
 }
